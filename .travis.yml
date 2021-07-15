@@ -8,4 +8,6 @@ compiler:
   - clang
   - gcc
 
-script: ./scripts/runtest.sh
+script: 
+  - chmod ugo+x scripts/runtest.sh
+  - ./scripts/runtest.sh
