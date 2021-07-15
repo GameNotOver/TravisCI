@@ -8,4 +8,4 @@ compiler:
   - clang
   - gcc
 
-script: sudo test.sh
+script: ./scripts/runtest.sh
