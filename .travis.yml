@@ -1,0 +1,10 @@
+language: c
+
+install: make get-deps
+
+compiler:
+  - clang
+  - gcc
+
+script:
+  gcc -c callback.c -o callback.exe
